@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Styles/style.css">
+    <title>News Signup</title>
+</head>
+<body>
+    <div class="header">
+        <h1 class="logo">NEWS</h1>
+        <a class="nav-link" href="#">Sign in</a>
+        <a class="nav-link" href="news-signup.html">Sign up</a>
+    </div>
+
+    <div class="signup-container">
+        <h2 class="heading">Sign up </h2>
+        <form action="http://jkorpela.fi/cgi-bin/echo.cgi" >
+            <div class="form-element-container">
+                <div class="form-element">
+                    <label for="name">Name</label>
+                    <input type="text" name="name" id="name" placeholder="Enter name" value="">
+                </div>
+        
+                <div class="form-element">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" placeholder="Enter Email">
+                </div>
+        
+                <div class="form-element">
+                    <label for="password">Password</label>
+                    <input type="password" name="password" id="password" placeholder="Enter Password">
+                </div>
+        
+                <div class="form-element">
+                    <label for="color">Favorite Color</label>
+                    <select name="color" id="color">
+                        <option value="R">Red</option>
+                        <option value="Y" selected>Yellow</option>
+                        <option value="B">blue</option>
+                    </select>
+                </div>
+        
+                <div class="form-element">
+                     <label for="">Gender</label>
+                    <input type="radio" name="gender" id="male" value="M">
+                    <label class="label-radio" for="male">Male</label>
+                    <input type="radio" name="gender" id="female" value="F" checked>
+                    <label class="label-radio" for="female">Female</label>
+                </div>
+        
+                <div class="form-element">
+                    <label for="student">I love coding</label>
+                    <input type="checkbox" name="student" id="student" value="Y" checked>
+                </div>
+        
+
+            </div>
+            
+            
+            <div class="form-element">
+                <label for="about">About me</label>
+                <textarea name="about" id="about" cols="20" rows="3">I want to become a technical anaylst</textarea>
+            </div>
+    
+            <div class="form-element">
+                <input type="submit" value="Sign up">
+            </div>
+            
+    
+            
+        </form>
+
+    </div>
+
+    <div class="footer">
+        Copyright 2020
+    </div>
+
+    
+</body>
+</html>
